@@ -1296,6 +1296,14 @@ img.pc{
 	margin-top: -8px;
 	text-transform: uppercase;
 }
+h2.testimonial_title
+{
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	margin-top: -8px;
+	text-transform: uppercase;
+}
 
 /*********************************
 7. Intro
@@ -1676,9 +1684,13 @@ img.pc{
 .testimonials
 {
 	width: 100%;
-	padding-top: 105px;
-	padding-bottom: 105px;
-	background: #FFFFFF;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-size: cover;
+	background-position: center;background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+	background-image: url(../images/imagetestiminial/thanos-pal-HUuj-N7KZ_8-unsplash.jpg);
 }
 .test_border
 {
@@ -1740,8 +1752,9 @@ img.pc{
 	width: 100%;
 	height: 100%;
 	padding-left: 38px;
-	padding-top: 44px;
+	padding-top: 10px;
 	padding-right: 40px;
+	
 }
 .test_item_info
 {
