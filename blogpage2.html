@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Blog</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Travelix Project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="styles/blog_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/blog_responsive.css">
+</head>
+
+<body>
+
+	<div class="super_container">
+
+		<!-- Header -->
+
+		<header class="header">
+
+			<!-- Top Bar -->
+
+			<div class="top_bar">
+				<div class="container">
+					<div class="row">
+						<div class="col d-flex flex-row">
+							<div class="phone">+45 345 3324 56789</div>
+							<div class="social">
+								<ul class="social_list">
+									<li class="social_list_item"><a href="#"><i class="fa fa-pinterest"
+												aria-hidden="true"></i></a></li>
+									<li class="social_list_item"><a href="#"><i class="fa fa-facebook"
+												aria-hidden="true"></i></a></li>
+									<li class="social_list_item"><a href="#"><i class="fa fa-twitter"
+												aria-hidden="true"></i></a></li>
+									<li class="social_list_item"><a href="#"><i class="fa fa-dribbble"
+												aria-hidden="true"></i></a></li>
+									<li class="social_list_item"><a href="#"><i class="fa fa-behance"
+												aria-hidden="true"></i></a></li>
+									<li class="social_list_item"><a href="#"><i class="fa fa-linkedin"
+												aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+							<div class="user_box ml-auto">
+								<div class="user_box_login user_box_link"><a href="#">login</a></div>
+								<div class="user_box_register user_box_link"><a href="#">register</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Main Navigation -->
+
+			<nav class="main_nav">
+				<div class="container">
+					<div class="row">
+						<div class="col main_nav_col d-flex flex-row align-items-center justify-content-start">
+							<div class="logo_container">
+								<div class="logo"><a href="./index.html"><img src="images/logo.png" alt="">LoveJapon</a>
+								</div>
+							</div>
+							<div class="main_nav_container ml-auto">
+								<ul class="main_nav_list">
+									<li class="main_nav_item"><a href="index.html">home</a></li>
+									<li class="main_nav_item"><a href="about.html">about us</a></li>
+									<li class="main_nav_item"><a href="offers.html">offers</a></li>
+									<li class="main_nav_item"><a href="#">news</a></li>
+									<li class="main_nav_item"><a href="contact.html">contact</a></li>
+								</ul>
+							</div>
+							<div class="content_search ml-lg-0 ml-auto">
+								<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17px"
+									height="17px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+									xml:space="preserve">
+									<g>
+										<g>
+											<g>
+												<path class="mag_glass" fill="#FFFFFF" d="M78.438,216.78c0,57.906,22.55,112.343,63.493,153.287c40.945,40.944,95.383,63.494,153.287,63.494
+											s112.344-22.55,153.287-63.494C489.451,329.123,512,274.686,512,216.78c0-57.904-22.549-112.342-63.494-153.286
+											C407.563,22.549,353.124,0,295.219,0c-57.904,0-112.342,22.549-153.287,63.494C100.988,104.438,78.439,158.876,78.438,216.78z
+											M119.804,216.78c0-96.725,78.69-175.416,175.415-175.416s175.418,78.691,175.418,175.416
+											c0,96.725-78.691,175.416-175.416,175.416C198.495,392.195,119.804,313.505,119.804,216.78z" />
+											</g>
+										</g>
+										<g>
+											<g>
+												<path class="mag_glass" fill="#FFFFFF" d="M6.057,505.942c4.038,4.039,9.332,6.058,14.625,6.058s10.587-2.019,14.625-6.058L171.268,369.98
+											c8.076-8.076,8.076-21.172,0-29.248c-8.076-8.078-21.172-8.078-29.249,0L6.057,476.693
+											C-2.019,484.77-2.019,497.865,6.057,505.942z" />
+											</g>
+										</g>
+									</g>
+								</svg>
+							</div>
+
+							<form id="search_form" class="search_form bez_1">
+								<input type="search" class="search_content_input bez_1">
+							</form>
+
+							<div class="hamburger">
+								<i class="fa fa-bars trans_200"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+		</header>
+
+		<div class="menu trans_500">
+			<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+				<div class="menu_close_container">
+					<div class="menu_close"></div>
+				</div>
+				<div class="logo"><a href="./index.html"><img src="images/logo.png" alt="">LoveJapon</a></div>
+				<ul>
+					<li class="menu_item"><a href="index.html">home</a></li>
+					<li class="menu_item"><a href="about.html">about us</a></li>
+					<li class="menu_item"><a href="offers.html">offers</a></li>
+					<li class="menu_item"><a href="#">news</a></li>
+					<li class="menu_item"><a href="contact.html">contact</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Home -->
+
+		<div class="home">
+			<div class="home_background parallax-window" data-parallax="scroll"
+				data-image-src="images/tokyo.jpg"></div>
+			<div class="home_content">
+				<div class="home_title">the blog</div>
+			</div>
+		</div>
+
+		<!-- Blog -->
+
+		<div class="blog">
+			<div class="container">
+				<div class="row">
+
+					<!-- Blog Content -->
+
+					<div class="col-lg-8">
+
+						<div class="blog_post_container">
+
+							<!-- Blog Post -->
+
+							<div class="blog_post">
+								<div class="blog_post_image">
+									<img src="images/agathe-marty-660363-unsplash-768x512.jpg" alt="iage vue panoramique de tokyo ">
+									<div
+										class="blog_post_date d-flex flex-column align-items-center justify-content-center">
+										<div class="blog_post_day">01</div>
+										<div class="blog_post_month">Dec, 2017</div>
+									</div>
+								</div>
+								<div class="blog_post_meta">
+									<ul>
+										<li class="blog_post_meta_item"><a href="">by Lore Papp</a></li>
+										<li class="blog_post_meta_item"><a href="">Uncategorized</a></li>
+										<li class="blog_post_meta_item"><a href="">3 Comments</a></li>
+									</ul>
+								</div>
+								<div class="blog_post_title"><a href="blog1.html">Séjour au Japon : comment se loger
+										?</a></div>
+								<div class="blog_post_text">
+									<p>Partir à la découverte d’un pays nécessite de prendre de nombreuses dispositions.
+										L’une des principales reste de savoir où poser ses bagages durant son séjour.
+										Longtemps, le Japon a été vu comme un pays où trouver une habitation relevait du
+										parcours du combattant. Mais le nombre exponentiel d’arrivées de touristes qu’a
+										connu le Japon ces dernières années a permis d’ouvrir de nouvelles perspectives
+										en matière de logement. On vous en dit plus.
+
+
+
+										<p> L’offre hôtelière a longtemps été hors de prix au Japon. Ouvrant ainsi un
+											boulevard au développement de la plateforme californienne de locations de
+											logements entre particuliers : Airbnb.
+
+											Alors que le Japon s’annonçait comme le marché le plus prometteur d’Asie
+											pour Airbnb, la société originaire de San Francisco a vécu de plein fouet la
+											mise en place le 15 juin dernier du nouveau régime juridique en matière de
+											locations entre particuliers, réduisant drastiquement les possibilités.
+
+										
+
+
+										</p>
+
+										<h3 class="blog2">Le maître-mot : ANTICIPATION !</h3>
+										<p>
+											Si vous prévoyez un voyage de courte durée au Japon, on ne saurait trop vous
+											recommander d’anticiper un maximum votre mode d’hébergement et procéder
+											idéalement à la réservation de celui-ci sans attendre d’être sur place.
+
+											<p> Selon vos attentes et que vous soyez seul(e), en famille ou en couple,
+												vous pouvez bien sûr opter pour l’hôtel classique. Hormis Tokyo où les
+												prix peuvent être très élevés, il est possible de trouver un hôtel qui
+												remplisse la condition du bon rapport qualité-prix sans chercher le
+												luxe. Une recherche consciencieuse sur votre moteur de recherche
+												préférée ou sur les sites spécialisés (booking, tripadvisor…) vous
+												permettra de faire le tour de l’offre très large en la matière.
+											</p>
+											<p> Si vous souhaitez d’ailleurs une expérience originale et typiquement
+												japonaise, vous pouvez vous reportez sur les capseru oteru
+												(capsule-hôtel), business hôtel ou encore les love-hôtels.
+											</p>
+
+
+
+										<p>	Les premiers n’existent qu’au Japon et requièrent de ne pas souffrir de
+											claustrophobie. Situés au cœur des centres villes, ces hôtels répondent au
+											besoin des salariés japonais ayant fini trop tard pour rentrer chez eux par
+											le dernier train de bénéficier d’un lit pour passer la nuit. Les derniers,
+											eux, sont plutôt l’apanage des jeunes couples japonais en recherche d’un
+											moment d’intimité.</p> 
+
+											<p>Ces love-hôtels bénéficient souvent d’une décoration
+												excentrique mais ont généralement un bon niveau de confort, au même titre
+												que les business hôtels qui brillent pour leur part par leur côté spartiate.
+											</p></p>
+								</div>
+
+								<img src="./images/Capsule-hotel-Kojach-CC2.jpg" alt="" class="img-fluid mx-auto d-block">
+
+								<p class="legende text-center">Capsule hôtel à Kobe – photo de Kojach (CC2) Flickr</p>
+								
+							</div>
+
+							<!-- Blog Post -->
+
+							<div class="blog_post">
+								<div class="blog_post_image">
+									<img src="images/Tokyo-Taxi-Tour-Japon-Temple-Sensoji-8-1110x740.jpg"
+										alt="https://unsplash.com/@tschax">
+									<div
+										class="blog_post_date d-flex flex-column align-items-center justify-content-center">
+										<div class="blog_post_day">01</div>
+										<div class="blog_post_month">Dec, 2017</div>
+									</div>
+								</div>
+								<div class="blog_post_meta">
+									<ul>
+										<li class="blog_post_meta_item"><a href="">by Lore Papp</a></li>
+										<li class="blog_post_meta_item"><a href="">Uncategorized</a></li>
+										<li class="blog_post_meta_item"><a href="">3 Comments</a></li>
+									</ul>
+								</div>
+								<div class="blog_post_title"><a href="blog2.html">
+
+										UNE BALADE À TOKYO SOUS LE THÈME DE L’ARTISANAT TRADITIONNEL JAPONAIS </a></div>
+								<div class="blog_post_text">
+									<p>L’ARTISANAT TRADITIONNEL JAPONAIS
+										In Japon, Tokyo by Asian Wanderlust24 janvier 20202 Comments
+
+										Tokyo est une ville moderne fantastique avec des grattes ciels énormes, un
+										système ferroviaire dernier cri et j’en passe. Malgré tout, il subsiste dans
+										cette mégalopole de nombreux endroits traditionnels où on peut découvrir et
+										admirer les travaux d’artisans japonais d’exception !
+
+										Pour cette journée de visite à Tokyo, j’ai suivi un des programmes de ce qu’on
+										appelle les “Tokyo Sightseeing Taxi” que Tokyo est en train de promouvoir. Il
+										s’agit en fait de tours organisés par des taxis Tokyoïtes anglophones qui vous
+										accompagneront tout au long de la journée en suivant un circuit prédéfini et en
+										jouant également le rôle de guides. L’avantage est que ces tours sont flexibles
+										et que vous pouvez les modeler selon vos envies. Pour plus d’informations sur
+										ces tours, n’hésitez pas à consulter cette brochure. Pour info, ce tour
+										correspond au numéro 6 de la brochure. Et pour les réservations, c’est ici que
+										ça se passe.…</p>
+								</div>
+								<div class="blog_post_link"><a href="blog2.html">read more</a></div>
+							</div>
+
+							<!-- Blog Post -->
+
+							<div class="blog_post">
+								<div class="blog_post_image">
+									<img src="images/Sakura-Japon-Nagoya-Temple-Nitaiiji-Couverture-1024x683 2.jpg"
+										alt="https://unsplash.com/@stilclassics">
+									<div
+										class="blog_post_date d-flex flex-column align-items-center justify-content-center">
+										<div class="blog_post_day">01</div>
+										<div class="blog_post_month">Dec, 2017</div>
+									</div>
+								</div>
+								<div class="blog_post_meta">
+									<ul>
+										<li class="blog_post_meta_item"><a href="">by Lore Papp</a></li>
+										<li class="blog_post_meta_item"><a href="">Uncategorized</a></li>
+										<li class="blog_post_meta_item"><a href="">3 Comments</a></li>
+									</ul>
+								</div>
+								<div class="blog_post_title"><a href="blog3.html">FLORAISON DES CERISIERS (SAKURA) AU
+										JAPON – PRINTEMPS 2020.</a></div>
+								<div class="blog_post_text">
+
+									<p>In Conseils Japon, Japon by Asian Wanderlust24 février 202034 Comments
+
+										Les 4ème dates prévisionnelles pour la floraison des cerisiers au Japon
+										(printemps 2020) sont tombées et même si ce n’est encore que des prévisions, la
+										floraison des cerisiers devrait se faire autour des dates annoncées, plus ou
+										moins 2/3 jours. Sakura veut dire cerisier en Japonais et la floraison de ces
+										Sakura est un événement majeur au pays du soleil levant. C’est donc lo</p>
+
+
+									<p>Le Hanami, qui veut littéralement dire “regarder les fleurs” (et en particulier
+										les fleurs de cerisiers), est une tradition très attendue au Japon. La coutume
+										veut que les Japonais profitent de ces paysages féeriques en passant la journée
+										à l’extérieur sous une pluie de pétales de couleur rose. Pour vous donner une
+										idée de comment se passe un Hanami, voici une petite vidéo que j’ai prise au
+										parc Shinjuku Gyoen à Tokyo pendant la floraison des cerisiers :</p>
+								</div>
+								<div class="blog_post_link"><a href="blog3.html">read more</a></div>
+							</div>
+
+						</div>
+
+						<div class="blog_navigation">
+							<ul>
+								<li class="blog_dot ">
+
+
+									<a href="./blog.html">
+										01.</a>
+								</li>
+								<li class="blog_dot  active">
+									<a href="./blogpage2.html"></a>
+									02.
+								</li>
+								<li class="blog_dot">
+									<a href="./blogpage#.html">
+
+										03.
+
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Blog Sidebar -->
+
+					<div class="col-lg-4 sidebar_col">
+
+						<!-- Sidebar Search -->
+						<div class="sidebar_search">
+							<form action="#">
+								<input id="sidebar_search_input" type="search" class="sidebar_search_input"
+									placeholder="" required="required">
+								<button id="sidebar_search_button" type="submit" class="sidebar_search_button trans_300"
+									value="Submit">
+									<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17px"
+										height="17px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+										xml:space="preserve">
+										<g>
+											<g>
+												<g>
+													<path class="mag_glass" fill="#FFFFFF" d="M78.438,216.78c0,57.906,22.55,112.343,63.493,153.287c40.945,40.944,95.383,63.494,153.287,63.494
+												s112.344-22.55,153.287-63.494C489.451,329.123,512,274.686,512,216.78c0-57.904-22.549-112.342-63.494-153.286
+												C407.563,22.549,353.124,0,295.219,0c-57.904,0-112.342,22.549-153.287,63.494C100.988,104.438,78.439,158.876,78.438,216.78z
+												M119.804,216.78c0-96.725,78.69-175.416,175.415-175.416s175.418,78.691,175.418,175.416
+												c0,96.725-78.691,175.416-175.416,175.416C198.495,392.195,119.804,313.505,119.804,216.78z" />
+												</g>
+											</g>
+											<g>
+												<g>
+													<path class="mag_glass" fill="#FFFFFF" d="M6.057,505.942c4.038,4.039,9.332,6.058,14.625,6.058s10.587-2.019,14.625-6.058L171.268,369.98
+												c8.076-8.076,8.076-21.172,0-29.248c-8.076-8.078-21.172-8.078-29.249,0L6.057,476.693
+												C-2.019,484.77-2.019,497.865,6.057,505.942z" />
+												</g>
+											</g>
+										</g>
+									</svg>
+								</button>
+							</form>
+						</div>
+
+						<!-- Sidebar Archives -->
+						<div class="sidebar_archives">
+							<div class="sidebar_title">Articles</div>
+							<div class="sidebar_list">
+								<ul>
+									<li><a href="blog1.html">UNE JOURNÉE TYPIQUE D’OTAKU À TOKYO – OÙ ALLER QUAND ON EST
+											FAN DE MANGA ?</a></li>
+									<li><a href="blog2.html">April 2017</a></li>
+									<li><a href="#">May 2017</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Sidebar Archives -->
+						<div class="sidebar_categories">
+							<div class="sidebar_title">Categories</div>
+							<div class="sidebar_list">
+								<ul>
+									<li><a href="#">Travel</a></li>
+									<li><a href="#">Exotic Destinations</a></li>
+									<li><a href="#">City Breaks</a></li>
+									<li><a href="#">Travel Tips</a></li>
+									<li><a href="#">Lifestyle & Travel</a></li>
+									<li><a href="#">City Breaks</a></li>
+									<li><a href="#">Uncategorized</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Sidebar Latest Posts -->
+
+						<div class="sidebar_latest_posts">
+							<div class="sidebar_title">Latest Posts</div>
+							<div class="latest_posts_container">
+								<ul>
+
+									<!-- Latest Post -->
+
+									<!-- Latest Post -->
+									<li class="latest_post clearfix">
+										<div class="footer_blog_image"
+											<a href=""><img src="images/Floraison-des-Cerisiers-Sakura-au-Japon-Previsions-Printemps-2018-Pagode-Nagoya-1110x740.jpg"  class="footer_blog_image" alt=""></a>
+										</div>
+										<div class="latest_post_content">
+											<div class="latest_post_title trans_200"><a
+													href="collection fuji.html">Collection 36 vues du Mont Fuji</a>
+											</div>
+											<div class="latest_post_meta">
+												<div class="latest_post_author trans_200"><a href="#">by Jane Smith</a>
+												</div>
+												<div class="latest_post_date trans_200"><a href="#">Aug 2, 2020</a>
+												</div>
+											</div>
+										</div>
+									</li>
+
+									<!-- Latest Post -->
+									<li class="latest_post clearfix">
+										<div class="latest_post_image">
+											<a href="kimono.html"><img src="./images/kimono/kimono1.jpg" class="footer_blog_image"  alt=""></a>
+										</div>
+										<div class="latest_post_content">
+											<div class="latest_post_title trans_200"><a href="kimono.html">Kimonos et
+													Cardigan</a></div>
+											<div class="latest_post_meta">
+												<div class="latest_post_author trans_200"><a href="#">by Wala Smirani</a>
+												</div>
+												<div class="latest_post_date trans_200"><a href="#">Aug 22, 2020</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="latest_post clearfix">
+										<div class="latest_post_image">
+											<a href="blog.html"><img src="./images/osakahd.jpg" class="footer_blog_image"  alt=""></a>
+										</div>
+										<div class="latest_post_content">
+											<div class="latest_post_title trans_200"><a href="blog.html">Une balade a tokyo ous le theme de l'artisanat traditionnel
+													</a></div>
+											<div class="latest_post_meta">
+												<div class="latest_post_author trans_200"><a href="#">by Fati Dhr</a>
+												</div>
+												<div class="latest_post_date trans_200"><a href="#">Aug 25, 2020</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="latest_post clearfix">
+										<div class="latest_post_image">
+											<a href="kyoto.html"><img src="./images/kyoto.jpg" class="footer_blog_image"  alt=""></a>
+										</div>
+										<div class="latest_post_content">
+											<div class="latest_post_title trans_200"><a href="kyoto.html">Les specialites de Kyoto</a></div>
+											<div class="latest_post_meta">
+												<div class="latest_post_author trans_200"><a href="#">by Wala Smirani</a>
+												</div>
+												<div class="latest_post_date trans_200"><a href="#">Aug 20, 2020</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="latest_post clearfix">
+										<div class="latest_post_image">
+											<a href="tokyo.html"><img  class="footer_blog_image"   src="./images/tokyo.jpg">
+										<div class="latest_post_content">
+											<div class="latest_post_title trans_200"><a href="./tokyo.html">les endroits incontournables a Tokyo</a></div>
+											<div class="latest_post_meta">
+												<div class="latest_post_author trans_200"><a href="#">by Ismael Azd</a>
+												</div>
+												<div class="latest_post_date trans_200"><a href="#">Aug 25, 2016</a>
+												</div>
+											</div>
+										</div>
+									</li>
+
+									<!-- Latest Post -->
+								
+								</ul>
+							</div>
+						</div>
+
+						<!-- Sidebar Gallery -->
+				
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+
+					<!-- Footer Column -->
+					<div class="col-lg-3 footer_column">
+						<div class="footer_col">
+							<div class="footer_content footer_about">
+								<div class="logo_container footer_logo">
+									<div class="logo"><a href="#"><img src="images/logo.png" alt="">LoveJapon</a></div>
+								</div>
+								<p class="footer_about_text"> Le « pays du Soleil levant » est un pays où le passé
+									rencontre le futur. La culture japonaise a adopté et même créé les dernières modes
+									et tendances.
+									Le Japon est un cas d’école de contrastes et de contradictions.
+									<ul class="footer_social_list">
+										<li class="footer_social_item"><a href="#"><i class="fa fa-pinterest"></i></a>
+										</li>
+										<li class="footer_social_item"><a href="#"><i class="fa fa-facebook-f"></i></a>
+										</li>
+
+									</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer Column -->
+					<div class="col-lg-3 footer_column">
+						<div class="footer_col">
+							<div class="footer_title">blog posts</div>
+							<div class="footer_content footer_blog">
+
+								<!-- Footer blog item -->
+								<div class="footer_blog_item clearfix">
+									<div class="footer_blog_image"><img src="images/tokyo.jpg"
+											alt="https://unsplash.com/@avidenov"></div>
+									<div class="footer_blog_content">
+										<div class="footer_blog_title"><a href="blog.html">Discover Tokyo with your
+												family </a></div>
+										<div class="footer_blog_date">Nov 29, 2017</div>
+									</div>
+								</div>
+
+								<!-- Footer blog item -->
+								<div class="footer_blog_item clearfix">
+									<div class="footer_blog_image"><img src="images/nara.jpg.jpg"
+											alt="https://unsplash.com/@deannaritchie"></div>
+									<div class="footer_blog_content">
+										<div class="footer_blog_title"><a href="blog.html">Visit Nara </a></div>
+										<div class="footer_blog_date">Nov 29, 2017</div>
+									</div>
+								</div>
+
+								<!-- Footer blog item -->
+								<div class="footer_blog_item clearfix">
+									<div class="footer_blog_image"><img src="images/hiroshima2.jpg"
+											alt="https://unsplash.com/@bergeryap87"></div>
+									<div class="footer_blog_content">
+										<div class="footer_blog_title"><a href="blog.html">Visit Hiroshima with us this
+												year</a></div>
+										<div class="footer_blog_date">Nov 29, 2017</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer Column -->
+					<div class="col-lg-3 footer_column">
+						<div class="footer_col">
+							<div class="footer_title">tags</div>
+							<div class="footer_content footer_tags">
+								<ul class="tags_list clearfix">
+									
+									<li class="tag_item"><a href="#">photography</a></li>
+									<li class="tag_item"><a href="#">adventure</a></li>
+									<li class="tag_item"><a href="#">travel</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer Column -->
+					<div class="col-lg-3 footer_column">
+						<div class="footer_col">
+							<div class="footer_title">contact info</div>
+							<div class="footer_content footer_contact">
+								<ul class="contact_info_list">
+									<li class="contact_info_item d-flex flex-row">
+										<div>
+											<div class="contact_info_icon"><img src="images/placeholder.svg" alt="">
+											</div>
+										</div>
+										<div class="contact_info_text">Rue saint joseph 24 1080 Bruxelles</div>
+									</li>
+									<li class="contact_info_item d-flex flex-row">
+										<div>
+											<div class="contact_info_icon"><img src="images/phone-call.svg" alt="">
+											</div>
+										</div>
+										<div class="contact_info_text">tel: 0499820073</div>
+									</li>
+									<li class="contact_info_item d-flex flex-row">
+										<div>
+											<div class="contact_info_icon"><img src="images/message.svg" alt=""></div>
+										</div>
+										<div class="contact_info_text"><a
+												href="mailto:contactme@gmail.com?Subject=Hello"
+												target="_top">wala.smirani@hotmail.com</a></div>
+									</li>
+									<li class="contact_info_item d-flex flex-row">
+										<div>
+											<div class="contact_info_icon"><img src="images/planet-earth.svg" alt="">
+											</div>
+										</div>
+										<div class="contact_info_text"><a
+												href="https://creativeweb2.netlify.com/">CreativeWeb Agency</a></div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+
+		<!-- Copyright -->
+
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 order-lg-1 order-2  ">
+						<div class="copyright_content d-flex flex-row align-items-center">
+							<div class="text-white">
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								Copyright &copy;<script>
+									document.write(new Date().getFullYear());
+								</script> All rights reserved | This website is made with <i class="fa fa-heart-o"
+									aria-hidden="true"></i> by <a href="https://colorlib.com"
+									target="_blank">CreativeWeb</a>
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-9 order-lg-2 order-1">
+						<div class="footer_nav_container d-flex flex-row align-items-center justify-content-lg-end">
+							<div class="footer_nav">
+								<ul class="footer_nav_list">
+									<li class="footer_nav_item"><a href="index.html">home</a></li>
+									<li class="footer_nav_item"><a href="about.html">about us</a></li>
+									<li class="footer_nav_item"><a href="offers.html">offers</a></li>
+									<li class="footer_nav_item"><a href="blog.html">news</a></li>
+									<li class="footer_nav_item"><a href="contact.html">contact</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="styles/bootstrap4/popper.js"></script>
+	<script src="styles/bootstrap4/bootstrap.min.js"></script>
+	<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+	<script src="plugins/parallax-js-master/parallax.min.js"></script>
+	<script src="js/blog_custom.js"></script>
+
+</body>
+
+</html>

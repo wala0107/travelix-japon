@@ -1834,15 +1834,16 @@ h2.testimonial_title
 /*********************************
 11. Trending
 *********************************/
-h2.voyage_title{
+h2.voyage_title2{
 	color: white;
 	font-size: 70px;
 	font-weight: 900;
 }
+
 .trending
 {
 	width: 100%;
-	padding-top: 105px;
+	padding-top: 50px;
 	padding-bottom: 50px;
 	background-image: url(../images/bacground.jpeg);
 	background-position: center;
@@ -1878,9 +1879,11 @@ h2.voyage_title{
 }
 .trending_title a
 {
-	font-size: 16px;
-	font-weight: 700;
-	color: #2d2c2c;
+	font-size: 20px;
+	font-weight: 900;
+	color: #fa9e1b;
+	text-align: center;
+	background-color: white;
 	text-transform: uppercase;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -1897,7 +1900,7 @@ h2.voyage_title{
 	font-size: 14px;
 	font-weight: 700;
 	color: #fa9e1b;
-	margin-top: 2px;
+	margin-top: 2px;background-color: whitesmoke;
 }
 .trending_location
 {
@@ -2270,7 +2273,7 @@ h2.voyage_title{
 
 .copyright
 {
-	background: #1f0733;
+	background: #111;
 }
 .copyright_content
 {
@@ -2279,8 +2282,8 @@ h2.voyage_title{
 .copyright_content div
 {
 	font-size: 12px;
-	font-weight: 600;
-	color: #685677;
+    font-weight: 600;
+    color: #fff;
 }
 .footer_nav_container
 {
@@ -2300,7 +2303,7 @@ h2.voyage_title{
 {
 	font-size: 12px;
 	font-weight: 600;
-	color: #685677;
+	color: #fff;
 	text-transform: uppercase;
 	line-height: 2;
 	-webkit-transition: all 200ms ease;
@@ -2311,5 +2314,5 @@ h2.voyage_title{
 }
 .footer_nav_item a:hover
 {
-	color: #FFFFFF;
+	color: orangered;
 }
